@@ -1,6 +1,6 @@
-body {
-    width:80%;
-      margin:auto;
+html  {
+    font-family: 'Roboto';
+    margin:0;
 }
 
 button {
@@ -8,14 +8,20 @@ button {
     color:white;
     font-weight:300;
     background-color:black;
-    padding:5px;
+    padding:10px;
     border-radius:5%;
+}
+
+h1 {
+    font-size:48px;
+    font-weight:700;
 }
 
 .grid{
     display:grid;
     grid-template-rows: (4, 1fr);
     grid-template-columns: repeat (6,1fr);
+    margin:0;
 }
 
 div {
@@ -57,6 +63,8 @@ nav > ul > li {
 
 #information {
 grid-template-columns:25% 25% 25% 25%;
+background:blue;
+justify-items:center;
 }
 
 #header-full-width {
@@ -72,12 +80,19 @@ grid-template-columns:25% 25% 25% 25%;
 }
 
 #quote {
-    grid-template-columns: 80%;
+    display:flex;
+    width:100%;
     text-align:center;
-    padding-top:5%;
+    padding-top:10%;
+    padding-bottom:10%;
+    background-color:grey;
+    margin:0;
+    align-items:center;
+    justify-content: center;
 }
 
 #quote h4 {
     font-size: 2.0rem;
     font-style: italic;
 }
+
