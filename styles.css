@@ -78,7 +78,8 @@ nav > ul > li {
 }
 
 #cover >  div > img {
-    width:80%;
+    min-width:800px;
+    height:auto;
     border-radius: 10px;
 }
 
