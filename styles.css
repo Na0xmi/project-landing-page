@@ -61,7 +61,7 @@ nav > ul > li {
 
 
 #cover {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 50% 50%;
     background-color:#43594D;
     margin:auto;
     align-items: center;
